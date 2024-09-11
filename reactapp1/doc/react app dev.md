@@ -15,7 +15,5 @@ npm start
 
 2. 构建项目
 使用npm或yarn来构建你的项目。这将会创建一个优化后的生产版本，通常会在build文件夹中生成静态文件。
-
-bash
-Copy code
+ 
 npm run build
