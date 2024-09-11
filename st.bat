@@ -9,3 +9,9 @@ rem start wbsvr
 
 cd C:\0oprj\reactprj1\reactapp1
 npm start
+
+
+rem----------- back svr
+#rem back svr
+
+rem node  ./reactapp1/src/svr.js
