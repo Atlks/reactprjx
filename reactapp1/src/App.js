@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import TablePage from './TablePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-         
-        <h1>88888885</h1>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/table" element={<TablePage />} />
+      </Routes>
+    </Router>
   );
 }
 
