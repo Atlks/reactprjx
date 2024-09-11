@@ -1,7 +1,11 @@
 
 
-# C:\Program\nodejs\npm install -g create-react-app
-# C:\Program\nodejs\npx.cmd  create-react-app reactapp1
-C:\0oprj\reactprj1\reactapp1
+rem# C:\Program\nodejs\npm install -g create-react-app
+rem C:\Program\nodejs\npx.cmd  create-react-app reactapp1
+
+rem git config --global user.email "ati@uke.com"
+rem git config --global user.name "ati"
 rem start wbsvr
+
+cd C:\0oprj\reactprj1\reactapp1
 npm start
